@@ -2,7 +2,7 @@
 
 This repository contains an implementation of the ROAM (Remove One, Add Many) heuristic for strategic social network analysis, based on the 2017 research paper:
 
-> **"Strategic Social Network Analysis"** by Tomasz Michalak, Talal Rahwan, and Michael Wooldridge ([AAAI 2017](https://aaai.org/papers/11142-aaai-31-2017/))
+> **"Strategic Social Network Analysis"** by Tomasz Michalak, Talal Rahwan, and Michael Wooldridge ([AAAI 2017](https://aaai.org/papers/11142-aaai-31-2017/)).
 
 ## Research Paper Context
 
@@ -17,31 +17,18 @@ This notebook:
 - Loads a real-world terrorist network dataset (Madrid train bombing, 2004)
 - Computes classic centrality measures (degree, closeness, betweenness)
 - Identifies the network leader
-- Applies the ROAM heuristic iteratively to simulate strategic evasion
+- Applies the ROAM heuristic to simulate strategic evasion
 - Analyzes and visualizes the effect on the leader's centrality and influence
 
 ## Dataset
 
-The dataset is from the [KONECT collection](http://konect.cc/networks/moreno_train) and is also available at [Netzschleuder](https://networks.skewed.de/net/train_terrorists):
+The dataset is available at [Netzschleuder](https://networks.skewed.de/net/train_terrorists):
 - **nodes.csv**: Node list (each node is a suspected terrorist, with 2D position for visualization)
 - **edges.csv**: Edges (connections between individuals, with weights encoding connection strength)
 - **gprops.csv**: Metadata and citation info
 
 **Description:**
 > A network of associations among the terrorists involved in the 2004 Madrid train bombing, as reconstructed from press stories after-the-fact. Edge weights encode four levels of connection strength: friendships, ties to Al Qaeda and Osama Bin Laden, co-participants in wars, and co-participants in previous terrorist attacks.
-
-**Citation:**
-```
-@article{konect:hayes,
-  title = {Connecting the Dots. Can the Tools of Graph Theory and Social-network Studies Unravel the Next Big Plot?},
-  author = {Hayes, Brian},
-  journal = {Am. Scientist},
-  volume = {94},
-  number = {5},
-  pages = {400--404},
-  year = {2006},
-}
-```
 
 ## How to Run
 
