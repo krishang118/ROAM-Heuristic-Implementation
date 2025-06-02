@@ -40,16 +40,10 @@ The dataset is available at [Netzschleuder](https://networks.skewed.de/net/train
 - Michalak, T., Rahwan, T., & Wooldridge, M. (2017). [Strategic Social Network Analysis](https://aaai.org/papers/11142-aaai-31-2017/). AAAI Conference on Artificial Intelligence.
 - [Netzschleuder: train_terrorists dataset](https://networks.skewed.de/net/train_terrorists)
 
----
-
 ## Contributing
 
 Contributions are welcome!
 
----
-
 ## License
 
 Distributed under the MIT License.
-
----
