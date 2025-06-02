@@ -14,7 +14,7 @@ The main implementation is in the Jupyter notebook:
 - `ROAM Heuristic.ipynb`.
 
 This notebook:
-- Loads a real-world terrorist network dataset (Madrid train bombing, 2004).
+- Loads a real-world terrorist network dataset (Madrid train bombings, 2004).
 - Computes classic centrality measures (degree, closeness, betweenness).
 - Identifies the network leader.
 - Applies the ROAM heuristic to simulate strategic evasion.
