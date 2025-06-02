@@ -4,7 +4,7 @@ This repository contains an implementation of the ROAM (Remove One, Add Many) he
 
 > **"Strategic Social Network Analysis"** by Tomasz Michalak, Talal Rahwan, and Michael Wooldridge ([AAAI 2017](https://aaai.org/papers/11142-aaai-31-2017/))
 
-## Research Context
+## Research Paper Context
 
 The paper introduces a new paradigm for social network analysis that explicitly models the strategic behavior of network actors. It addresses questions such as how individuals or groups can evade detection by social network analysis tools, and how such tools can be made robust to strategic manipulation. The ROAM heuristic is one such strategy, allowing a network leader to rewire connections to reduce their detectability while maintaining network functionality.
 
