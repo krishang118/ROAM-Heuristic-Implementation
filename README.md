@@ -1,6 +1,6 @@
 # ROAM Heuristic Implementation (Strategic Social Network)
 
-This repository contains an implementation of the ROAM (Remove One, Add Many) heuristic for strategic social network analysis, based on the 2017 research paper:
+This repository contains an implementation of the ROAM (Remove One, Add Many) heuristic for a 'strategic social network', based on the 2017 research paper:
 
 > **"Strategic Social Network Analysis"** by Tomasz Michalak, Talal Rahwan, and Michael Wooldridge ([AAAI 2017](https://aaai.org/papers/11142-aaai-31-2017/)).
 
@@ -11,18 +11,18 @@ The paper introduces a new paradigm for social network analysis that explicitly 
 ## Implementation
 
 The main implementation is in the Jupyter notebook:
-- `ROAM Heuristic.ipynb`
+- `ROAM Heuristic.ipynb`.
 
 This notebook:
-- Loads a real-world terrorist network dataset (Madrid train bombing, 2004)
-- Computes classic centrality measures (degree, closeness, betweenness)
-- Identifies the network leader
-- Applies the ROAM heuristic to simulate strategic evasion
-- Analyzes and visualizes the effect on the leader's centrality and influence
+- Loads a real-world terrorist network dataset (Madrid train bombing, 2004).
+- Computes classic centrality measures (degree, closeness, betweenness).
+- Identifies the network leader.
+- Applies the ROAM heuristic to simulate strategic evasion.
+- Analyzes and visualizes the effect on the leader's centrality and influence.
 
 ## Dataset
 
-The dataset is available at [Netzschleuder](https://networks.skewed.de/net/train_terrorists):
+The dataset is available at [Netzschleuder](https://networks.skewed.de/net/train_terrorists). It contains:
 - **nodes.csv**: Node list (each node is a suspected terrorist, with 2D position for visualization)
 - **edges.csv**: Edges (connections between individuals, with weights encoding connection strength)
 - **gprops.csv**: Metadata and citation info
@@ -32,32 +32,24 @@ The dataset is available at [Netzschleuder](https://networks.skewed.de/net/train
 
 ## How to Run
 
-1. **Install dependencies:**
-   - Python 3.10+
-   - Recommended: Use a virtual environment
-   - Install required packages:
-     ```bash
-     pip install pandas numpy networkx matplotlib seaborn
-     ```
-2. **Open the notebook:**
-   - Launch Jupyter Notebook or JupyterLab
-   - Open `ROAM Heuristic.ipynb`
-3. **Run all cells:**
-   - The notebook will load the data, perform the analysis, and display results/plots.
-
-## Dependencies
-- pandas
-- numpy
-- networkx
-- matplotlib
-- seaborn
+1. Clone this repository on your local machine.
+2. Unzip the dataset file.
+3. Run and execute the Jupyter Notebook.
 
 ## References
 - Michalak, T., Rahwan, T., & Wooldridge, M. (2017). [Strategic Social Network Analysis](https://aaai.org/papers/11142-aaai-31-2017/). AAAI Conference on Artificial Intelligence.
-- Hayes, B. (2006). Connecting the Dots: Can the tools of graph theory and social-network studies unravel the next big plot? *American Scientist*, 94(5), 400-404.
-- [KONECT: Koblenz Network Collection](http://konect.cc/networks/moreno_train)
 - [Netzschleuder: train_terrorists dataset](https://networks.skewed.de/net/train_terrorists)
 
 ---
 
-For questions or academic use, please cite the original paper and dataset as above. 
+## Contributing
+
+Contributions are welcome!
+
+---
+
+## License
+
+Distributed under the MIT License.
+
+---
