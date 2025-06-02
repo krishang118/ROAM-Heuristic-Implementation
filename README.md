@@ -1,4 +1,4 @@
-# Strategic Social Network with ROAM Heuristic
+# ROAM Heuristic Implementation (Strategic Social Network)
 
 This repository contains an implementation of the ROAM (Remove One, Add Many) heuristic for strategic social network analysis, based on the 2017 research paper:
 
