@@ -28,13 +28,14 @@ The dataset is available at [Netzschleuder](https://networks.skewed.de/net/train
 - **gprops.csv**: Metadata and citation info
 
 **Description:**
-> A network of associations among the terrorists involved in the 2004 Madrid train bombing, as reconstructed from press stories after-the-fact. Edge weights encode four levels of connection strength: friendships, ties to Al Qaeda and Osama Bin Laden, co-participants in wars, and co-participants in previous terrorist attacks.
+
+A network of associations among the terrorists involved in the 2004 Madrid train bombing, as reconstructed from press stories after-the-fact. Edge weights encode four levels of connection strength: friendships, ties to Al Qaeda and Osama Bin Laden, co-participants in wars, and co-participants in previous terrorist attacks.
 
 ## How to Run
 
 1. Clone this repository on your local machine.
 2. Unzip the dataset file.
-3. Run and execute the Jupyter Notebook.
+3. Run and execute the `ROAM Heuristic.ipynb` Jupyter Notebook.
 
 ## References
 - Michalak, T., Rahwan, T., & Wooldridge, M. (2017). [Strategic Social Network Analysis](https://aaai.org/papers/11142-aaai-31-2017/). AAAI Conference on Artificial Intelligence.
